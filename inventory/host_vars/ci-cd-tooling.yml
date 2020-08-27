@@ -38,7 +38,7 @@ jenkins_slaves:
       SOURCE_CONTEXT_DIR: jenkins-slaves/jenkins-slave-mvn
       SOURCE_REPOSITORY_REF: "{{ cop_quickstarts_raw_version_tag }}"
       SOURCE_REPOSITORY_URL: "{{ cop_quickstarts }}"
-    
+      
 nexus:
   secret:
     SECRET_NAME: "nexus-password"
