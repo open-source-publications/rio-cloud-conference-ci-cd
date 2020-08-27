@@ -1,0 +1,5 @@
+---
+- name: Setting up CI for Conference CI/CD
+  hosts: "ci-for-conference"
+  roles:
+    - openshift-applier/roles/openshift-applier
