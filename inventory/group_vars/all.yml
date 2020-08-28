@@ -9,7 +9,7 @@ cop_quickstarts: "https://github.com/redhat-cop/containers-quickstarts.git"
 cop_quickstarts_raw: "https://raw.githubusercontent.com/redhat-cop/containers-quickstarts"
 cop_quickstarts_raw_version_tag: "v1.19"
 containers_repo: "https://github.com/open-source-publications/containers-repo.git"
-containers_repo_version_tag: "v1.1"
+containers_repo_version_tag: "v1.3"
 
 ci_cd:
   NAMESPACE: "{{ ci_cd_namespace }}"
